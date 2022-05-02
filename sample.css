@@ -1,0 +1,31 @@
+        iframe {
+            height: 18rem;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            width: 530px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        
+        .ytvid {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        a {
+            color: #191c94;
+            font-weight: 900;
+        }
+        
+        .navbar a:hover:before,
+        .navbar li:hover>a:before,
+        .navbar .active:before {
+            visibility: hidden;
+            width: 25px;
+            left: 41px;
+            bottom: 217px;
+        }

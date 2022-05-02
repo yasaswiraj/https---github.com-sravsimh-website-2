@@ -1,0 +1,23 @@
+        .member .pic img {
+            height: 250px;
+            width: 250px;
+        }
+        
+        .mem-pic {
+            padding-bottom: 80px;
+            margin-top: 0px!important;
+        }
+        
+        @media (min-width: 992px) {
+            .col-lg-3 {
+                flex: 0 0 auto;
+                width: 33%;
+            }
+        }
+        
+        @media (min-width:1025px) {
+            .col-lg-3 {
+                flex: 0 0 auto;
+                width: 25%;
+            }
+        }
